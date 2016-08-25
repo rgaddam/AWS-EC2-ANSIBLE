@@ -1,0 +1,11 @@
+---
+# vars file for launch-aws-instance
+
+ec2_server_key_name: rgaddamAWS-key
+ec2_server_security_group: sg-fb22a29c
+ec2_subnet_instance_vpc: subnet-457f8721
+ec2_server_instance_type: t2.micro
+ec2_server_image:  ami-775e4f16
+ec2_server_region: us-west-2a
+ec2_server_instcount: 1
+ec2_server_name: test-instance

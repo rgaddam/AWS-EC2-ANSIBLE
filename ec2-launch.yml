@@ -1,0 +1,9 @@
+---
+# This Playbook will launch e2c instances using Ansible
+
+- name: Launching an EC2 instance
+  hosts: local
+  connection: local
+  gather_facts: False
+  roles:
+    - ec2-instance 
